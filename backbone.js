@@ -831,8 +831,7 @@
         if (options.wait) collection.add(model, options);
         if (success) success(model, resp, options);
       };
-      model.save(null, options);
-      return model;
+      return model.save(null, options);
     },
 
     // **parse** converts a response into a list of models to be added to the
